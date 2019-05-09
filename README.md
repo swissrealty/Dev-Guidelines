@@ -42,7 +42,7 @@ var x = b.concat(' ', b);
 Exceptions can be made for functions that abstract values and purpose to a level for which understanding of the variable/function purpose or value is not needed.
 
 * **Spacing is important**
-Although spacing is open for interpretation Swiss Realty has defined the following guidelines for readability purposes:
+	Although spacing is open for interpretation Swiss Realty has defined the following guidelines for readability purposes:
 ```html
 <!-- correct spacing -->
 <body>
@@ -68,4 +68,7 @@ Although spacing is open for interpretation Swiss Realty has defined the followi
 	<div>
 </body>
 ```
+
+
+
 ## Syntax specific guidelines
