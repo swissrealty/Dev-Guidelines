@@ -4,7 +4,7 @@ Swiss Realty's development guidelines focus at providing developers both in-hous
 ## General considerations
 Some considerations go accross programming language and should be followed accordingly.
 
-* **Tab size is of 4**
+### * **Tab size is of 4**
 
 ``` javascript
 // correct indentation
@@ -24,7 +24,7 @@ function sumVars(var1, var2) {
 ```
 This is a mandatory rule, all code written with two space tabs will be asked to be changed.
 
-* **IDs and labels should be as verbal as possible**
+### * **IDs and labels should be as verbal as possible**
 ```javascript
 // correct labelling
 var surName = "Doe";
@@ -41,8 +41,8 @@ var x = b.concat(' ', b);
 ```
 Exceptions can be made for functions that abstract values and purpose to a level for which understanding of the variable/function purpose or value is not needed.
 
-* **Spacing is important**
-	Although spacing is open for interpretation Swiss Realty has defined the following guidelines for readability purposes:
+### * **Spacing is important**:
+Although spacing is open for interpretation Swiss Realty has defined the following guidelines for readability purposes:
 ```html
 <!-- correct spacing -->
 <body>
@@ -69,6 +69,16 @@ Exceptions can be made for functions that abstract values and purpose to a level
 </body>
 ```
 
+### * **comment, comment, comment**
+Comments are essential for several different reasons:
+	* They provide an immense source of information on purpose of certain functions
+	* They provide context as to how a certain action is being performed (your way is not the only way)
+	* They are helpful to debug and reas through the code in a highlevel manner
+```typescript
+// function that will return a string of character provided by the user
+async public function returnValue(value: string) {
 
+}
+```
 
 ## Syntax specific guidelines
