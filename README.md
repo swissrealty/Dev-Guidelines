@@ -91,7 +91,7 @@ public function returnValue(value: string) {
 }
 ```
 ```typescript
-// wromg commenting behavior
+// wrong commenting behavior
 
 public function returnValue(value: string) {
 	let valueHolder = value
