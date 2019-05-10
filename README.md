@@ -103,7 +103,7 @@ public function returnValue(value: string) {
 ## Syntax specific guidelines
 The syntax specific guidelines are completed as we run into use cases and specificities that we would like to see applied in the code.
 
-* html
+* [html](Specifc Syntax/HTML.md)
 * css
 * php
 * Typescript
